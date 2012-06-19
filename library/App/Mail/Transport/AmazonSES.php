@@ -54,8 +54,8 @@ class App_Mail_Transport_AmazonSES extends Zend_Mail_Transport_Abstract
     /**
      * Constructor.
      *
-     * @param  string $endpoint (Default: https://email.us-east-1.amazonaws.com)
      * @param  array|null $config (Default: null)
+     * @param  string $host (Default: https://email.us-east-1.amazonaws.com)
      * @return void
      * @throws Zend_Mail_Transport_Exception if accessKey is not present in the config
      * @throws Zend_Mail_Transport_Exception if privateKey is not present in the config
